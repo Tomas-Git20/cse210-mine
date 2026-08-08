@@ -1,9 +1,18 @@
-using System;
-
-class Program
+namespace EternalQuest
 {
-    static void Main(string[] args)
+public class Program
+{
+public static void Main(string[] args)
+{
+QuestManager questManager = new QuestManager();
+
+
+        questManager.Run();
+    }
+}
+
+    internal class QuestManager
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        internal void Run() => throw new NotImplementedException();
     }
 }
