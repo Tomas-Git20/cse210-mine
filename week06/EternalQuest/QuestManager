@@ -10,7 +10,7 @@ private List<Goal> _goals = new List<Goal>();
 private int _score;
 private int _streak;
 
-    private const string SaveFile = "eternalquest.txt";
+    private const string SaveFile = "eternal_quest.txt";
 
     public void Run()
     {
